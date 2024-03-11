@@ -1,0 +1,85 @@
+Circuit: * C:\Users\bogdan\OneDrive\Desktop\Project_SwAIC_Hancis-Bogdan\Circuit Simulations\Etaj 2\Etaj_2_Hancis_Bogdan.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:ao:10     d:ao:3      d:ao:1      d:ao:2      d:ao:5
+Model:  ao:dpshdn   ao:dilim    ao:dprot    ao:dprot    ao:dprot
+Id:      4.31e-06    1.43e-04   -6.25e-10   -6.25e-10   -1.25e-09
+Vd:      3.00e+01    8.58e-02   -1.50e+01   -1.50e+01   -3.00e+01
+Req:     1.00e-03    1.67e-03    4.17e-11    4.17e-11    4.17e-11
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:ao:6      d:ao:13     d:ao:14     d:ao:15     d:ao:16
+Model:  ao:dprot    ao:dprot    ao:dprot    ao:dprot    ao:dprot
+Id:     -6.25e-10   -6.25e-10   -6.25e-10    0.00e+00   -6.25e-10
+Vd:     -1.50e+01   -1.50e+01   -1.50e+01    0.00e+00   -1.50e+01
+Req:     4.17e-11    4.17e-11    4.17e-11    4.17e-11    4.17e-11
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:ao:7      d:ao:12     d:ao:8      d:ao:9      d:ao:11
+Model:   ao:enb      ao:enb     ao:dbias1   ao:dbias1   ao:dbiasz
+Id:      0.00e+00    7.01e-07    5.00e-06    5.00e-06    1.87e-18
+Vd:      0.00e+00    1.50e+01    7.50e-01    7.50e-01    1.87e-09
+Req:     1.00e-09    1.00e-05    2.22e-04    2.22e-04    1.00e-09
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:     q:ao:1      q:ao:2
+Model:    ao:npn1     ao:npn1
+Ib:       1.43e-04    1.46e-04
+Ic:       9.29e-03    9.44e-03
+Vbe:      7.18e-01    7.19e-01
+Vbc:     -1.43e+01   -1.43e+01
+Vce:      1.50e+01    1.50e+01
+BetaDC:   6.50e+01    6.47e+01
+Gm:       2.79e-01    2.82e-01
+Rpi:      1.81e+02    1.77e+02
+Rx:       0.00e+00    0.00e+00
+Ro:       1.23e+04    1.21e+04
+Cbe:      1.64e-13    1.64e-13
+Cbc:      3.72e-14    3.72e-14
+Cjs:      0.00e+00    0.00e+00
+BetaAC:   5.04e+01    5.00e+01
+Cbx:      0.00e+00    0.00e+00
+Ft:       2.21e+11    2.24e+11
+
+
+
+Date: Mon Jan 22 15:39:00 2024
+Total elapsed time: 0.068 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 435
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 27
+fillins = 18
+solver = Normal
+Avg thread counts: 3.7/0.0/7.3/1.9
+Matrix Compiler1:     116 opcodes
+Matrix Compiler2: off  [0.3]/0.4/0.4
+

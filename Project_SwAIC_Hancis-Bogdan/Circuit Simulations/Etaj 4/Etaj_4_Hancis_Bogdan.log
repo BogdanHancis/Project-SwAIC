@@ -1,0 +1,47 @@
+Circuit: * C:\Users\bogdan\OneDrive\Desktop\Project_SwAIC_Hancis-Bogdan\Circuit Simulations\Etaj 4\Etaj_4_Hancis_Bogdan.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 5.7896e-08
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Mon Jan 22 16:14:06 2024
+Total elapsed time: 6.083 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 202921
+traniter = 201212
+tranpoints = 100281
+accept = 100158
+rejected = 123
+matrix size = 30
+fillins = 22
+solver = Normal
+Avg thread counts: 2.0/1.0/1.0/1.0
+Matrix Compiler1: 2.17 KB object code size  0.5/0.5/[0.3]
+Matrix Compiler2: 2.93 KB object code size  0.3/0.5/[0.3]
+
